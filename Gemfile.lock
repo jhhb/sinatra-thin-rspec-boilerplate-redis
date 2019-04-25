@@ -14,6 +14,7 @@ GEM
     rack-protection (2.0.5)
       rack
     rb-readline (0.5.5)
+    redis (4.1.0)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
@@ -44,6 +45,7 @@ PLATFORMS
 DEPENDENCIES
   pry
   rb-readline
+  redis
   rspec
   sinatra
   thin
